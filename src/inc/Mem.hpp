@@ -7,7 +7,7 @@
 #include "stdafx.h"
 
 #include <stdint.h>
-#include <gsl.h>
+#include <gsl>
 
 #include <atomic>
 #include <mutex>

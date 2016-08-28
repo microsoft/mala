@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wampum", "lib\wampum.vcxproj", "{FA7D4A3C-99C5-48AF-8537-6D47DB56C615}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mala", "lib\mala.vcxproj", "{FA7D4A3C-99C5-48AF-8537-6D47DB56C615}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wptest", "wptest\wptest.vcxproj", "{8E6ABA3C-A361-4FA7-BF76-BCF9FF7A890E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj", "{8E6ABA3C-A361-4FA7-BF76-BCF9FF7A890E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +23,10 @@ Global
 		{FA7D4A3C-99C5-48AF-8537-6D47DB56C615}.Release|x86.ActiveCfg = Release|x64
 		{8E6ABA3C-A361-4FA7-BF76-BCF9FF7A890E}.Debug|x64.ActiveCfg = Debug|x64
 		{8E6ABA3C-A361-4FA7-BF76-BCF9FF7A890E}.Debug|x64.Build.0 = Debug|x64
-		{8E6ABA3C-A361-4FA7-BF76-BCF9FF7A890E}.Debug|x86.ActiveCfg = Debug|Win32
-		{8E6ABA3C-A361-4FA7-BF76-BCF9FF7A890E}.Debug|x86.Build.0 = Debug|Win32
+		{8E6ABA3C-A361-4FA7-BF76-BCF9FF7A890E}.Debug|x86.ActiveCfg = Debug|x64
 		{8E6ABA3C-A361-4FA7-BF76-BCF9FF7A890E}.Release|x64.ActiveCfg = Release|x64
 		{8E6ABA3C-A361-4FA7-BF76-BCF9FF7A890E}.Release|x64.Build.0 = Release|x64
-		{8E6ABA3C-A361-4FA7-BF76-BCF9FF7A890E}.Release|x86.ActiveCfg = Release|Win32
-		{8E6ABA3C-A361-4FA7-BF76-BCF9FF7A890E}.Release|x86.Build.0 = Release|Win32
+		{8E6ABA3C-A361-4FA7-BF76-BCF9FF7A890E}.Release|x86.ActiveCfg = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
