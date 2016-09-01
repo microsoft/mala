@@ -439,6 +439,8 @@ namespace Schedulers
 
         ~ContinuationLambda() {}
 
+        void Cleanup() {}
+
         // This method is called by the scheduler when it's this Activity's turn.
         // Define actual work in this method;
         //
@@ -455,7 +457,7 @@ namespace Schedulers
     template<class Func>
     ContinuationBase* lambdaContinue(Activity& activity, Func f)
     {
-        auto pArena = activity->GetArena();
+        auto pArena = activity.GetArena();
         return pArena->allocate<ContinuationLambda<Func>>(std::move(f), activity);
     }
 
@@ -542,7 +544,7 @@ namespace Schedulers
             // index to another type.
             // 
             Audit::Assert(ContextIndex::BaseContext <= index && index < ContextIndex::ContextSize,
-                "Invalid Context Index");
+                L"Invalid Context Index");
         }
 
         Context* GetContext()

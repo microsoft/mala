@@ -98,7 +98,7 @@ mc -um ETWTracing.man -h $(ProjectDir) -z ETWTracing</Command>
     <ClInclude Include="targetver.h" />
     <ClInclude Include="..\inc\Tracer.hpp" />
     <ClInclude Include="..\inc\Control.hpp" />
-    <ClInclude Include="MiscWin.hpp" />
+    <ClInclude Include="..\inc\MiscWin.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UnbufferedFileQueue.cpp" />

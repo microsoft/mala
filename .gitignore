@@ -1,0 +1,22 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+[Bb]in
+obj
+objd
+out/
+tmp/
+x64/
+ipch/
+extern/
+App_Data
+*.user
+*.sln.cache
+*.userosscache
+*.suo
+TestResults
+[Tt]humbs.db
+*.VC.db
+*.VC.opendb
+*.nupkg
